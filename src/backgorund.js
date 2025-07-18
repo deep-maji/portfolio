@@ -40,11 +40,11 @@ window.addEventListener("resize", (event) => {
     let canvas = document.querySelector("canvas");
     canvas.remove();
     new FinisherHeader({
-    "count": 2000,
+    "count": 200,
     "size": {
         "min": 2,
         "max": 3,
-        "pulse": 0.01
+        "pulse": 0.5
     },
     "speed": {
         "x": {
